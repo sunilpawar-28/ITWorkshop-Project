@@ -1,0 +1,10 @@
+Metric,Value
+Records,24
+Unique source hosts,6
+Unique destination hosts,3
+Unique hosts overall,9
+Total packets,204
+Total bytes,117400
+Protocols,"ICMP, TCP, UDP"
+First timestamp,2026-10-18 09:00:00
+Last timestamp,2026-10-18 09:07:09

@@ -1,0 +1,42 @@
+ITW III — Batch 2
+PROJECT PROPOSAL
+Intelligent Network Traffic Analysis System Using Python
+
+1. Problem Statement
+Network communication generates large amounts of traffic data, making it difficult to identify communication patterns, measure traffic volume, and detect unusual network activity manually. This project analyzes network-flow records, summarizes communication between hosts, visualizes network connections, and flags potentially unusual source activity using a transparent statistical rule.
+
+2. Objectives
+• Analyze network-flow data using Python and Pandas.
+• Calculate record, packet, byte, host, and protocol statistics.
+• Identify frequently communicating source-destination pairs.
+• Represent communication as a directed graph using NetworkX.
+• Visualize network patterns using Matplotlib.
+• Flag unusually high source record counts using a rule-based threshold.
+• Export analysis results to CSV.
+
+3. Technologies
+Python, Pandas, Matplotlib, NetworkX, Jupyter Notebook. Socket Programming will be used in a controlled local client-server demonstration as a planned enhancement, if time and course requirements permit.
+
+4. Methodology
+1. Load a suitable dataset or synthetic records for initial testing.
+2. Validate and clean timestamps, host fields, protocol labels, packet counts, and byte counts.
+3. Calculate overall, host-level, and protocol-level statistics.
+4. Build a directed weighted graph where nodes are hosts and edges represent observed communication.
+5. Visualize communication pairs and traffic statistics.
+6. Apply a simple statistical rule to flag unusually high source record counts.
+7. Test with ordinary and deliberately unusual sample records and document limitations.
+
+5. Proposed Features
+• Host-level and protocol-level traffic summaries.
+• Directed NetworkX communication graph.
+• Ranking of frequent source-destination pairs.
+• Rule-based anomaly flags and threshold visualization.
+• Per-minute activity analysis.
+• CSV exports of result tables.
+• Planned controlled socket-based demonstration.
+
+6. Expected Outcomes
+A reproducible Python notebook that analyzes network-flow records, summarizes communication patterns, visualizes host relationships, and flags unusual activity for investigation. Flags will be treated as indicators for review rather than proof of malicious activity.
+
+7. Conclusion
+The project combines Python programming, data analytics, graph theory, and basic anomaly detection. The included sample data will be identified as synthetic; conclusions about real network behavior will only be made if an authorized real dataset is subsequently analyzed.

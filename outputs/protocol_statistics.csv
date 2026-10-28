@@ -1,0 +1,4 @@
+protocol,record_count,total_packets,total_bytes
+TCP,10,105,68200
+UDP,4,79,47400
+ICMP,10,20,1800
